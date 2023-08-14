@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var test = false
     var body: some View {
         VStack {
             Image(systemName: "rectangle.and.pencil.and.ellipsis")
@@ -17,6 +18,7 @@ struct ContentView: View {
                 .frame(width: 200, height: 200)
             Text("Fill Out Your Name")
             ReservationForm()
+            Toggle("Enabled", isOn: $test)
         }
         .padding()
     }
