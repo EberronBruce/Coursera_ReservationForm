@@ -11,6 +11,7 @@
 		7A9384622A89FF8A00E80EEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9384612A89FF8A00E80EEA /* ContentView.swift */; };
 		7A9384642A89FF8B00E80EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9384632A89FF8B00E80EEA /* Assets.xcassets */; };
 		7A9384672A89FF8B00E80EEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9384662A89FF8B00E80EEA /* Preview Assets.xcassets */; };
+		7A93846E2A89FFB900E80EEA /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A93846D2A89FFB900E80EEA /* ReservationForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7A9384612A89FF8A00E80EEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A9384632A89FF8B00E80EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A9384662A89FF8B00E80EEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A93846D2A89FFB900E80EEA /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7A93845F2A89FF8A00E80EEA /* ReservationFormApp.swift */,
 				7A9384612A89FF8A00E80EEA /* ContentView.swift */,
+				7A93846D2A89FFB900E80EEA /* ReservationForm.swift */,
 				7A9384632A89FF8B00E80EEA /* Assets.xcassets */,
 				7A9384652A89FF8B00E80EEA /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				7A9384622A89FF8A00E80EEA /* ContentView.swift in Sources */,
 				7A9384602A89FF8A00E80EEA /* ReservationFormApp.swift in Sources */,
+				7A93846E2A89FFB900E80EEA /* ReservationForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
