@@ -10,16 +10,24 @@ import SwiftUI
 struct ContentView: View {
     @State var test = false
     var body: some View {
-        VStack {
-            Image(systemName: "rectangle.and.pencil.and.ellipsis")
-                .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0), resizingMode: .stretch)
+        VStack(alignment: .leading) {
+            Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.green)
-                .frame(width: 200, height: 200)
-            Text("Fill Out Your Name")
-            ReservationForm()
-            Toggle("Enabled", isOn: $test)
+                .foregroundColor(.accentColor)
+            Text("Hello, world!")
+                .background(Color.red)
+                .frame(width: 200, height: 50)
+                .background(Color.blue)
+                .cornerRadius(10)
+                .padding()
+            HStack {
+                Button("One") {}
+                Button("Two") {}
+                Button("Three") {}
+                
+            }
         }
+        .frame(width: 300, alignment: .leading)
         .padding()
     }
 }
