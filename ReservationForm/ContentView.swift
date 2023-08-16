@@ -8,35 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var test = false
     var body: some View {
-        VStack(alignment: .leading) {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-                .background(Color.red)
-                .frame(width: 200, height: 50)
-                .background(Color.blue)
-                .cornerRadius(10)
+        ZStack{
+            Color.green.opacity(0.5).ignoresSafeArea()
+            HStack(spacing: 8) {
+                Image(systemName: "bolt.circle")
+                    .font(.system(size: 80))
+                    .foregroundColor(.init(red: 128/255, green: 64/255, blue: 128/255))
+                    .scaledToFit()
+                    .frame(width: 100, height: 100, alignment: .center)
+                VStack(spacing: 10) {
+                    Text("The Bolt")
+                        .font(.title)
+                    Text("Stacks in SwiftUI - ZStack, HStack, VStack")
+                        .font(.title3)
+                        .multilineTextAlignment(.center)
+                } //: - VStack
                 .padding()
-            HStack {
-                Button("One") {}
-                    .padding()
-                    .background(Color.indigo)
-                    .cornerRadius(15)
-                Button("Two") {}
-                    .padding()
-                    .background(Color.mint)
-                    .cornerRadius(15)
-                Button("Three") {}
-                    .padding()
-                    .background(Color.teal)
-                    .cornerRadius(15)
-                
-            }
-        }
-        .frame(width: 300, alignment: .leading)
+            } // :- HStack
+            .padding()
+        } // :- ZStack
         .padding()
     }
 }
