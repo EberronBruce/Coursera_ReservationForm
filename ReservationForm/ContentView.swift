@@ -22,8 +22,17 @@ struct ContentView: View {
                 .padding()
             HStack {
                 Button("One") {}
+                    .padding()
+                    .background(Color.indigo)
+                    .cornerRadius(15)
                 Button("Two") {}
+                    .padding()
+                    .background(Color.mint)
+                    .cornerRadius(15)
                 Button("Three") {}
+                    .padding()
+                    .background(Color.teal)
+                    .cornerRadius(15)
                 
             }
         }
