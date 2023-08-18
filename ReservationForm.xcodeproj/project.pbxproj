@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A761E432A8F2735005B4F4E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A761E422A8F2735005B4F4E /* MainView.swift */; };
 		7A9384602A89FF8A00E80EEA /* ReservationFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A93845F2A89FF8A00E80EEA /* ReservationFormApp.swift */; };
 		7A9384622A89FF8A00E80EEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9384612A89FF8A00E80EEA /* ContentView.swift */; };
 		7A9384642A89FF8B00E80EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9384632A89FF8B00E80EEA /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A761E422A8F2735005B4F4E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7A93845C2A89FF8A00E80EEA /* ReservationForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReservationForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A93845F2A89FF8A00E80EEA /* ReservationFormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationFormApp.swift; sourceTree = "<group>"; };
 		7A9384612A89FF8A00E80EEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				7A93845F2A89FF8A00E80EEA /* ReservationFormApp.swift */,
 				7A9384612A89FF8A00E80EEA /* ContentView.swift */,
 				7A93846D2A89FFB900E80EEA /* ReservationForm.swift */,
+				7A761E422A8F2735005B4F4E /* MainView.swift */,
 				7A9384632A89FF8B00E80EEA /* Assets.xcassets */,
 				7A9384652A89FF8B00E80EEA /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A9384622A89FF8A00E80EEA /* ContentView.swift in Sources */,
+				7A761E432A8F2735005B4F4E /* MainView.swift in Sources */,
 				7A9384602A89FF8A00E80EEA /* ReservationFormApp.swift in Sources */,
 				7A93846E2A89FFB900E80EEA /* ReservationForm.swift in Sources */,
 			);
