@@ -9,26 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
-            Color.green.opacity(0.5).ignoresSafeArea()
-            HStack(spacing: 8) {
-                Image(systemName: "bolt.circle")
-                    .font(.system(size: 80))
-                    .foregroundColor(.init(red: 128/255, green: 64/255, blue: 128/255))
-                    .scaledToFit()
-                    .frame(width: 100, height: 100, alignment: .center)
-                VStack(spacing: 10) {
-                    Text("The Bolt")
-                        .font(.title)
-                    Text("Stacks in SwiftUI - ZStack, HStack, VStack")
-                        .font(.title3)
-                        .multilineTextAlignment(.center)
-                } //: - VStack
-                .padding()
-            } // :- HStack
-            .padding()
-        } // :- ZStack
-        .padding()
+        ZStack(alignment: .leading) {
+            Circle()
+                .foregroundColor(Color.gray)
+            Circle()
+                .scale(x: 0.75, y: 0.75)
+                .foregroundColor(Color.red)
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text ("Hello, world!")
+                    .padding()
+                Spacer()
+                HStack(spacing: 20) {
+                    Button("One"){}
+                    Button("Two"){}
+                }
+                .frame(maxHeight: .infinity, alignment: .top)
+            }
+            .frame(maxWidth: .infinity, alignment: .trailing)
+            
+        }
+        
     }
 }
 
